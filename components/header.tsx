@@ -52,13 +52,14 @@ const Header = (props: Props) => {
         </div>
       </div>
       <nav className=" flex justify-between items-center px-24 pt-5">
-        <Image
+       <div className="relative w-40 h-12">
+       <Image
           src={"/logo.png"}
-          width={200}
-          height={200}
           alt={"logo"}
-          className="object-contain"
+          fill
+          className="absolute object-contain  "
         />
+       </div>
         <div className="flex items-center gap-6 text-sm uppercase">
           <Link
             href={"/"}
