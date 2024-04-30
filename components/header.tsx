@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import {
   MdOutlineLocalPhone,
@@ -10,17 +9,8 @@ import { FaSkype } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
-import { useRouter } from "next/navigation";
+import NavigationMenuBar from "./navigationMenu";
+
 
 type Props = {};
 
@@ -44,7 +34,6 @@ const links = [
 
 const Header = (props: Props) => {
 
-    const router= useRouter();
   return (
     <header className="fixed top-0 h-28 bg-white w-full shadow-sm border-b border-b-slate-200 pb-3 z-20 ">
       <div className="flex justify-between items-center bg-secondaryBackground text-white  px-24 py-1">
@@ -83,34 +72,9 @@ const Header = (props: Props) => {
           >
             our story
           </Link>
-          <NavigationMenu>
-            <NavigationMenuList>
-              <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-primary-text hover:text-secondary-text font-medium uppercase p-0 m-0">
-                  about
-                </NavigationMenuTrigger>
-                <NavigationMenuContent className="rounded-none border-none">
-                  <div className="w-60 h-fit text-left bg-secondaryBackground">
 
-                    <div className="w-full h-1 bg-secondary-text" />
-
-                    <div className="py-2 px-5 cursor-pointer text-white font-semibold hover:bg-white hover:text-primary-text w-full" onClick={()=>{router.push("/introduction")}}>
-                      <NavigationMenuLink className="">
-                        introduction
-                      </NavigationMenuLink>
-                    </div>
-                    <div className="py-2 px-5 cursor-pointer text-white font-semibold hover:bg-white hover:text-primary-text w-full" onClick={()=>{router.push("#")}}>
-                      <NavigationMenuLink className="">
-                        our team
-                      </NavigationMenuLink>
-                    </div>
-                    
-                  </div>
-                </NavigationMenuContent>
-              </NavigationMenuItem>
-            </NavigationMenuList>
-          </NavigationMenu>
-
+          <NavigationMenuBar/>
+          
           <Link
             href={"/#products"}
             className="text-primary-text  hover:text-secondary-text font-medium"
