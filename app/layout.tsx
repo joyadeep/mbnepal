@@ -6,6 +6,9 @@ import Footer from "@/components/footer";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 export const metadata: Metadata = {
+  openGraph: {
+    images:"/team.jpg"
+  },
   title:{
     default:"Home - MicroBanker Nepal Pvt. Ltd.",
     template:"%s - MicroBanker Nepal Pvt. Ltd."
