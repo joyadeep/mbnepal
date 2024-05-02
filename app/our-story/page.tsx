@@ -5,6 +5,10 @@ import React from "react";
 type Props = {};
 export const metadata: Metadata = {
   title: "Our Story",
+  openGraph:{
+    images:"team2.jpg"
+  },
+  description:"Our Story Almost three decades ago, MBNepal started with a small staff and two fold visions. The first was to provide banking software services in Nepal for rural populations, that even big commercial banks did not have access to in those days. The second was to cultivate technical expertise and build capacity in Nepal, who […]"
 };
 const page = (props: Props) => {
   return (

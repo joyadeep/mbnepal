@@ -4,6 +4,7 @@ import React from 'react'
 type Props = {}
 export const metadata: Metadata = {
   title: "Introduction",
+  description:"INTRODUCTION We are the authorized distributor and competence center of MBWin, registered and based in Kathmandu, Nepal serving globally. It is one of the world’s leading banking software used by various types of institutions worldwide. It is a robust software to manage an organization’s various types of client transactions in a comprehensive manner and efficiently […]"
 };
 const page = (props: Props) => {
   return (
