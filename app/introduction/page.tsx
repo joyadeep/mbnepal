@@ -1,7 +1,10 @@
+import { Metadata } from 'next';
 import React from 'react'
 
 type Props = {}
-
+export const metadata: Metadata = {
+  title: "Introduction",
+};
 const page = (props: Props) => {
   return (
     <div className='px-24 pt-2 pb-10 flex flex-col gap-6'>

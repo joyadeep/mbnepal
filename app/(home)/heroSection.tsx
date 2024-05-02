@@ -6,7 +6,7 @@ type Props = {}
 const HeroSection = (props: Props) => {
   return (
     <div className='h-[calc(100vh-80px)] w-full relative  overflow-hidden'>
-        <video autoPlay muted loop className=' absolute'>
+        <video autoPlay muted loop className='absolute w-full object-cover'>
             <source src='/hero.mp4' type='video/mp4' />
         </video>
         <div className='absolute flex flex-col gap-5 text-center p-5 rounded-md bg-white/70 w-2/3 h-fit top-[55%] left-1/2 translate-x-[-50%] translate-y-[-50%] '>

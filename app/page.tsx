@@ -6,6 +6,8 @@ import Contact from "./(home)/contact";
 import Success from "./(home)/success";
 import News from "./(home)/news";
 
+
+
 export default function Home() {
   return (
     <main>
@@ -16,7 +18,7 @@ export default function Home() {
         description="MBWin Core Banking System includes wide variety of features and modules that eases the banking and accounting need of the organization."
         backgroundColor="bg-white"
         columns="grid-cols-5"
-        moreLink="#"
+        moreLink="/other-modules"
         features={[
           {
             image:"/financeGroup.png",
@@ -44,7 +46,7 @@ export default function Home() {
         description="We intend to provide all the banking and accounting-related solutions to our clients. Hence, we have developed a wide variety of products, so that our clients can get all the solutions at one place."
         backgroundColor="bg-secondaryBackground"
         columns="grid-cols-5"
-        moreLink="#"
+        moreLink="/other-products"
         linkId="products"
         features={[
           {

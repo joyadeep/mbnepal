@@ -51,13 +51,14 @@ const Header = (props: Props) => {
           ))}
         </div>
       </div>
-      <nav className=" flex justify-between items-center px-24 pt-5">
-       <div className="relative w-40 h-12">
+      <nav className=" flex justify-between items-center px-24 py-3 ">
+       <div className="relative w-48 h-14">
        <Image
           src={"/logo.png"}
           alt={"logo"}
           fill
           className="absolute object-contain  "
+          priority
         />
        </div>
         <div className="flex items-center gap-6 text-sm uppercase">
