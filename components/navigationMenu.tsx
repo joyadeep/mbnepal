@@ -21,7 +21,7 @@ const NavigationMenuBar = (props: Props) => {
     <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-primary-text hover:text-secondary-text font-medium uppercase p-0 m-0">
+                <NavigationMenuTrigger className="text-primary-text hover:text-secondary-text font-medium uppercase p-0 m-0 bg-transparent hover:bg-transparent focus:bg-transparent group-hover:bg-transparent focus:text-primary-text">
                   about
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="rounded-none border-none">

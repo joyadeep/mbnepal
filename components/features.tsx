@@ -30,7 +30,9 @@ const Features = ({title,description,moreLink,features,backgroundColor,columns,l
         <div className={cn("grid gap-10 mt-10",columns)}>
             {features.map((feature,index)=>(
                 <div key={index} className='flex flex-col gap-2'>
-                <Image src={feature.image} alt="finance group" width={150} height={100} className='mx-auto' />
+                <div className='relative w-32 h-32 mx-auto'>
+                    <Image src={feature.image} alt="finance group" fill className='absolute' />
+                </div>
                 <p className={cn("font-semibold",backgroundColor === "bg-white"? "text-secondaryBackground":"text-white")}>{feature.iconTitle}</p>
             </div>
             ))}

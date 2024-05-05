@@ -35,7 +35,7 @@ const links = [
 const Header = (props: Props) => {
 
   return (
-    <header className="fixed top-0 h-28 bg-white w-full shadow-sm border-b border-b-slate-200 pb-3 z-20 ">
+    <header className="fixed top-0 h-28  bg-white w-full shadow-sm border-b border-b-slate-200 pb-3 z-20 ">
       <div className="flex justify-between items-center bg-secondaryBackground text-white  px-24 py-1">
         <div className="flex items-center gap-2 text-xs font-bold">
           <MdOutlineLocalPhone size={18} />
@@ -51,7 +51,7 @@ const Header = (props: Props) => {
           ))}
         </div>
       </div>
-      <nav className=" flex justify-between items-center px-24 py-3 ">
+      <nav className=" flex justify-between items-center px-24 py-3">
        <div className="relative w-48 h-14">
        <Image
           src={"/logo.png"}
