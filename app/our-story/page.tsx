@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 };
 const page = (props: Props) => {
   return (
-    <div className="px-24 pt-2 pb-10 flex flex-col gap-6">
+    <div className="px-5 md:px-24 pt-2 pb-10 flex flex-col gap-6">
       <h3 className="text-xl font-bold text-primary-text">Our Story</h3>
-      <div className="relative w-auto h-[500px] text-center">
+      <div className="relative w-auto h-[300px] md:h-[500px] text-center">
         <Image
           src="/team.jpg"
           alt="microbanker team"

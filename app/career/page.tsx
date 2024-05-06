@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 const page = (props: Props) => {
   return (
-    <div className='px-72 pt-10'>
+    <div className='px-5 md:px-72 pt-10'>
       <h3 className='capitalize text-xl font-bold text-secondaryBackground'>current openings</h3>
       <Separator orientation='horizontal' className='h-0.5 bg-secondaryBackground my-5' />
       <Vacancy />

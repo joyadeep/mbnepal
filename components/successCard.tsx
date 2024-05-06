@@ -25,8 +25,8 @@ const SuccessCard = ({time,title,description,postfix}: Props) => {
               <AnimatedNumbers 
               animateToNumber={Number(time)}
               transitions={(index) => ({
-                type: "spring",
-                duration: 5,
+                type: "",
+                duration: 2,
               })}
               />
              <span> {postfix}</span>
