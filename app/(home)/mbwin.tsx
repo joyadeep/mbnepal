@@ -6,7 +6,7 @@ type Props = {}
 
 const Mbwin = (props: Props) => {
   return (
-    <div className='px-64 bg-secondaryBackground py-10 flex items-center gap-36' >
+    <div className='px-5 md:px-64 bg-secondaryBackground py-10 flex flex-col md:flex-row items-center gap-36' >
         <Image src={"/mbwin.png"} alt='mbwin' width={200} height={100} />
         <div>
             <h3 className='uppercase text-lg text-white font-bold tracking-wider'><span className='text-secondary-text'>mbwin</span> core banking system</h3>

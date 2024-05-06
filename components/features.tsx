@@ -20,7 +20,7 @@ const Features = ({title,description,moreLink,features,backgroundColor,columns,l
   return (
     <>
     <a id={linkId} />
-    <div className={`px-64 py-28 ${backgroundColor} `}>
+    <div className={`px-5 md:px-64 py-28 ${backgroundColor} `}>
     <div className='flex flex-col gap-5 text-center '>
         <div className=' text-secondary-text uppercase text-2xl font-bold'>
         {title}

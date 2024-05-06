@@ -17,7 +17,7 @@ export default function Home() {
       <Features title={<>Features and <span className="text-primary-text">modules</span></>}
         description="MBWin Core Banking System includes wide variety of features and modules that eases the banking and accounting need of the organization."
         backgroundColor="bg-white"
-        columns="grid-cols-5"
+        columns="md:grid-cols-5 grid-cols-1"
         moreLink="/other-modules"
         features={[
           {
@@ -45,7 +45,7 @@ export default function Home() {
       <Features title={<>products</>}
         description="We intend to provide all the banking and accounting-related solutions to our clients. Hence, we have developed a wide variety of products, so that our clients can get all the solutions at one place."
         backgroundColor="bg-secondaryBackground"
-        columns="grid-cols-5"
+        columns="md:grid-cols-5 grid-cols-1"
         moreLink="/other-products"
         linkId="products"
         features={[
@@ -73,7 +73,7 @@ export default function Home() {
       <Features title={<>other <span className="text-primary-text">solutions</span></>}
         description="Excluding banking, MicroBanker Nepal offers wide variety of other solutions."
         backgroundColor="bg-white"
-        columns="grid-cols-4"
+        columns="md:grid-cols-4 grid-cols-1"
         features={[
           {
             image:"/cloudHosting.png",

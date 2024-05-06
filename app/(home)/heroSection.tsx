@@ -6,10 +6,10 @@ type Props = {}
 const HeroSection = (props: Props) => {
   return (
     <div className='h-[calc(100vh-80px)] w-full relative  overflow-hidden'>
-        <video autoPlay muted loop className='absolute w-full object-cover'>
+        <video autoPlay muted loop className='hidden md:block absolute w-full object-cover'>
             <source src='/hero.mp4' type='video/mp4' />
         </video>
-        <div className='absolute flex flex-col gap-5 text-center p-5 rounded-md bg-white/70 w-2/3 h-fit top-[55%] left-1/2 translate-x-[-50%] translate-y-[-50%] '>
+        <div className='absolute flex flex-col gap-5 text-center px-2 md:p-5 rounded-md  md:bg-white/70 w-full md:w-2/3 h-fit top-[55%] left-1/2 translate-x-[-50%] translate-y-[-50%] '>
             <p className='uppercase font-bold text-xl tracking-wider  text-secondary-text'>all banking solution</p>
             <p className='uppercase font-bold text-5xl tracking-wider w-1/2 mx-auto text-primary-text leading-normal'>veteran of banking system</p>
             <p className='text-primary-text'>

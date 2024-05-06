@@ -241,9 +241,9 @@ const Contact = (props: Props) => {
       <h2 className='uppercase  text-secondary-text tracking-widest  font-bold text-2xl '>keep in touch</h2>
       <p className='text-white font-medium'>You are in a good company.</p>
 
-      <div className='flex justify-between gap-2 text-white pb-32 text-left px-60'>
+      <div className='flex flex-col md:flex-row justify-between gap-2 text-white pb-32 text-left px-5 md:px-60'>
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className='flex flex-col gap-4  w-2/3'>
+          <form onSubmit={form.handleSubmit(onSubmit)} className='flex flex-col gap-4 w-full  md:w-2/3'>
 
           <FormField control={form.control}
           name='country'
@@ -330,12 +330,12 @@ const Contact = (props: Props) => {
           )}
           />
 
-<Button className="uppercase tracking-widest bg-secondary-text w-fit  rounded-full font-bold px-10 py-5 hover:bg-white hover:text-secondary-text duration-500">submit</Button>
+<Button className="uppercase mx-auto md:mx-0 tracking-widest bg-secondary-text w-fit  rounded-full font-bold px-10 py-5 hover:bg-white hover:text-secondary-text duration-500">submit</Button>
 
           </form>
 
         </Form>
-        <div className='flex flex-col gap-10'>
+        <div className='flex flex-col  items-center gap-10'>
           <div className='text-center w-60'>
             <MdLocationOn size={40} className='text-secondary-text mx-auto'/>
             <p className='text-white mt-2'>158-Nirmal Lama Marg, Nayabazar, Kathmandu, Nepal Kathmandu – 44600</p>
