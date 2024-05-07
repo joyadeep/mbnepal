@@ -22,22 +22,27 @@ export default function Home() {
         features={[
           {
             image:"/financeGroup.png",
-            iconTitle:"MicroFinance Group Feature"
+            iconTitle:"MicroFinance Group Feature",
+            link:"/microfinance-group-feature"
           },
           {
             image:"/islamicBanking.png",
-            iconTitle:"Islamic Banking"
+            iconTitle:"Islamic Banking",
+            link:"/islamic-banking"
           },
           {
             image:"/mis.png",
-            iconTitle:"MIS Reporting"
+            iconTitle:"MIS Reporting",
+            link:"/mis-reporting"
           }, {
             image:"/chequeMgmt.png",
-            iconTitle:"Cheque Management"
+            iconTitle:"Cheque Management",
+            link:"/cheque-management"
           }, 
           {
             image:"/atmInterface.png",
-            iconTitle:"ATM Interface"
+            iconTitle:"ATM Interface",
+            link:"/atm-interface"
           }
         ]}
       />
@@ -51,22 +56,27 @@ export default function Home() {
         features={[
           {
             image:"/tabletBanking.png",
-            iconTitle:"Tablet Banking (Market Collection)"
+            iconTitle:"Tablet Banking (Market Collection)",
+            link:"/tablet-banking-market-collection"
           },
           {
             image:"/smsBanking.png",
-            iconTitle:"SMS Banking"
+            iconTitle:"SMS Banking",
+            link:"/sms-banking-system"
           },
           {
             image:"/smartBanking.png",
-            iconTitle:"Smart Banking"
+            iconTitle:"Smart Banking",
+            link:"/smart-banking-system"
           }, {
             image:"/internetBanking.png",
-            iconTitle:"Internet Banking"
+            iconTitle:"Internet Banking",
+            link:"/internet-banking"
           }, 
           {
             image:"/assetMgmt.png",
-            iconTitle:"Assets & Inventory Management"
+            iconTitle:"Assets & Inventory Management",
+            link:"/assets-inventory-management"
           }
         ]}
       />
@@ -77,18 +87,22 @@ export default function Home() {
         features={[
           {
             image:"/cloudHosting.png",
-            iconTitle:"Cloud Hosting"
+            iconTitle:"Cloud Hosting",
+            link:"/cloud-hosting"
           },
           {
             image:"/websiteDevelopment.png",
-            iconTitle:"Website Development"
+            iconTitle:"Website Development",
+            link:"/website-development"
           },
           {
             image:"/appDevelopment.png",
-            iconTitle:"Application Development"
+            iconTitle:"Application Development",
+            link:"/application-development"
           }, {
             image:"/mobileDevelopment.png",
-            iconTitle:"Mobile App Development"
+            iconTitle:"Mobile App Development",
+            link:"/mobile-app-development"
           }, 
         ]}
       />

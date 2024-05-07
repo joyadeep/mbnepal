@@ -9,35 +9,43 @@ const page = (props: Props) => {
     modules={[
         {
             image:"/tabletBanking2.png",
-            iconTitle:"Tablet Banking(Market Collection)"
+            iconTitle:"Tablet Banking(Market Collection)",
+            link:"/tablet-banking-market-collection"
         },
         {
             image:"/smsBanking2.png",
-            iconTitle:"SMS Banking"
+            iconTitle:"SMS Banking",
+            link:"/sms-banking-system"
         },
         {
             image:"/smartBanking2.png",
-            iconTitle:"Smart Banking"
+            iconTitle:"Smart Banking",
+            link:"/smart-banking-system"
         },
         {
             image:"/internetBanking2.png",
-            iconTitle:"Internet Banking"
+            iconTitle:"Internet Banking",
+            link:"/internet-banking"
         },
         {
             image:"/assetMgmt2.png",
-            iconTitle:"Assets & Inventory Management"
+            iconTitle:"Assets & Inventory Management",
+            link:"/assets-inventory-management"
         },
         {
             image:"/hrSystem.png",
-            iconTitle:"Human Resource, Payroll and Attendance Management System"
+            iconTitle:"Human Resource, Payroll and Attendance Management System",
+            link:"/hrms"
         },
         {
             image:"/electronicDocumentSystem.png",
-            iconTitle:"Electronic Document Management System"
+            iconTitle:"Electronic Document Management System",
+            link:"/edms"
         },
         {
             image:"/creditAppraisalSystem.png",
-            iconTitle:"Credit Appraisal System"
+            iconTitle:"Credit Appraisal System",
+            link:"/credit-appraisal"
         }
     ]}
     />

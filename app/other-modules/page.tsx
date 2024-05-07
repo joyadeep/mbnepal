@@ -10,58 +10,72 @@ const page = (props: Props) => {
     modules={[
         {
             image:"/financeGroup.png",
-            iconTitle:"MicroFinance Group Feature"
+            iconTitle:"MicroFinance Group Feature",
+            link:"/microfinance-group-feature"
         },
         {
             image:"/islamicBanking.png",
-            iconTitle:"Islamic Banking"
+            iconTitle:"Islamic Banking",
+            link:"/islamic-banking"
         },
         {
             image:"/mis.png",
-            iconTitle:"MIS Reporting"
+            iconTitle:"MIS Reporting",
+            link:"/mis-reporting"
         }, {
             image:"/chequeMgmt.png",
-            iconTitle:"Cheque Management"
+            iconTitle:"Cheque Management",
+            link:"/cheque-management"
         }, 
         {
             image:"/generalLedger.png",
-            iconTitle:"General Ledger and Accountants"
+            iconTitle:"General Ledger and Accountants",
+            link:"/general-ledger"
         },
         {
             image:"/multiCurrency.png",
-            iconTitle:"Multi Currency"
+            iconTitle:"Multi Currency",
+            link:"/multi-currency"
         },
         {
             image:"/atmInterface.png",
-            iconTitle:"ATM Interface"
+            iconTitle:"ATM Interface",
+            link:"/atm-interface"
         },
         {
             image:"/budgetModule.png",
-            iconTitle:"Budget Module"
+            iconTitle:"Budget Module",
+            link:"/budget-module"
         },
         {
             image:"/fingerprintInterface.png",
-            iconTitle:"Fingerprint Interface"
+            iconTitle:"Fingerprint Interface",
+            link:"/fingerprint-interface"
         },
         {
             image:"/customizedReport.png",
-            iconTitle:"Customized Report"
+            iconTitle:"Customized Report",
+            link:"/customized-report"
         },
         {
             image:"/regulatoryReport.jpg",
-            iconTitle:"Regulatory Report"
+            iconTitle:"Regulatory Report",
+            link:"/regulatory-report"
         },
         {
             image:"/barcode.png",
-            iconTitle:"Barcode Interface"
+            iconTitle:"Barcode Interface",
+            link:"/barcode-interface"
         },
         {
             image:"/shareAccount.png",
-            iconTitle:"Share Accounting & Management"
+            iconTitle:"Share Accounting & Management",
+            link:"/share-accounting-management"
         },
         {
             image:"/qr.png",
-            iconTitle:"QR Interface"
+            iconTitle:"QR Teller",
+            link:"/qr-teller"
         }
     ]}
     />
