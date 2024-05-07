@@ -6,6 +6,7 @@ type Props = {};
 
 const page = (props: Props) => {
   return (
+    <>
     <Service
       title="human resource management system (hrms)"
       image="/hrSystem.png"
@@ -46,10 +47,14 @@ const page = (props: Props) => {
           deductions and taxes
         </li>
       </ul>
-      <div className="relative aspect-square ">
-            <Image src="/HRMS-Software.png" alt="HRMS" fill className="object-contain absolute" />
-      </div>
+      
     </Service>
+   <div className="md:w-1/2 mx-auto">
+   <div className="relative aspect-square ">
+    <Image src="/HRMS-Software.png" alt="HRMS" fill className="object-contain absolute" />
+</div>
+   </div>
+    </>
   );
 };
 

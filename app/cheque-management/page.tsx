@@ -5,6 +5,7 @@ type Props = {};
 
 const page = (props: Props) => {
   return (
+   <>
     <Service title="cheque management module" image="/chequeMgmt.png">
       <p>
         Cheque Management Module is software which is designed and developed to
@@ -16,19 +17,23 @@ const page = (props: Props) => {
         reflected in the assigned GL accounts.
       </p>
       <br />
-      <p>Following are the major functionality of this module:</p>
-      <br />
-      <ul className="list-disc pl-5">
-        <li>Cheque payment entry, approval & print information in cheque.</li>
-        <li>Cheque Stock Maintenance.</li>
-        <li>
-          Cheque payment configuration by adding, editing and deleting the
-          account details, Payee details etc.
-        </li>
-        <li>Generating voucher</li>
-        <li>Various related reports</li>
-      </ul>
+      
     </Service>
+    <div className="px-5 md:px-60 text-sm text-primary-text pb-10">
+    <p>Following are the major functionality of this module:</p>
+    <br />
+    <ul className="list-disc pl-5">
+      <li>Cheque payment entry, approval & print information in cheque.</li>
+      <li>Cheque Stock Maintenance.</li>
+      <li>
+        Cheque payment configuration by adding, editing and deleting the
+        account details, Payee details etc.
+      </li>
+      <li>Generating voucher</li>
+      <li>Various related reports</li>
+    </ul>
+    </div>
+   </>
   );
 };
 

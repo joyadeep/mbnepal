@@ -13,7 +13,7 @@ const page = (props: Props) => {
   return (
     <Service 
     title='Microfinance Group Feature'
-    image='/barcode.png'
+    image='/financeGroup.png'
     >
         <p>
         The Customer orientation and customer relationship facilities enable MBWin to offer powerful features for Microfinance institutions that use various group methodologies, such as practiced by the Gramin Bank. Multilevel groups can be set up with a loan officer at the top of the hierarchy, followed by, for example, centers, then groups and even subgroups, and finally members. Accounts can be owned by any of the levels in the hierarchy. This allows for the creation of an extremely flexible administration, monitoring and tracking system.

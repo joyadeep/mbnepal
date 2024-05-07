@@ -7,7 +7,7 @@ const page = (props: Props) => {
   return (
    <Service 
    title='various regulatory reports'
-   image='/regulatoryReport.png'
+   image='/regulatoryReport.jpg'
    >
 
     <p>

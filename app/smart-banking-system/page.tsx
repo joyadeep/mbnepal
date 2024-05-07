@@ -20,7 +20,10 @@ const page = (props: Props) => {
           service, bill payments, and many more.
         </p>
         <br />
-        <p>Some of the features are listed below:</p>
+        
+      </Service>
+      <div className="px-5 text-sm text-primary-text md:px-60  py-16">
+      <p>Some of the features are listed below:</p>
         <br />
         <ol className="list-decimal pl-3">
           <li>WIFI, GPRS, and SMS Enabled: Works on multiple channels</li>
@@ -49,8 +52,6 @@ const page = (props: Props) => {
           </li>
           <li>And much more: Pin change, customized layout scheme, etc.</li>
         </ol>
-      </Service>
-      <div className="px-60  py-16">
         <div className="relative aspect-video">
 
         <Image src="/SmartBankFeatures.png" alt="smart banking system" fill className="absolute object-contain" />

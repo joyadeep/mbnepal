@@ -16,7 +16,7 @@ const page = (props: Props) => {
         </p>
     </Service>
     <br />
-    <div className='text-primary-text text-sm px-60 text-justify'>
+    <div className='text-primary-text text-sm px-5 md:px-60 text-justify'>
     <p>
         The system is designed to access the data of the MicroBanking system to provide the required information. It works using Short Messaging Service (SMS) technology. With SMS, the client can perform a wide range of query-based transactions from a mobile phone, without making a call. The information is retrieved from the MB system and sends back to the mobile phone via the SMS Centre, all in a matter of a few seconds.
         </p><br />
@@ -46,20 +46,20 @@ const page = (props: Props) => {
         <br />
         <p>To deliver and receive SMS from and to the client, we have developed different types of SMS Gateway technologies.</p>
 <br />
-        <div className='flex gap-5 text-justify'>
+        <div className='flex flex-col md:flex-row gap-5 text-justify'>
             <div className='flex-1'>
                 <ol className='list-decimal pl-3' start={1}>
                     <li className='font-bold'>MicroBanker SMS Gateway</li>
                 </ol>
                 <p>In Nepal, all of our client uses SMS Gateway developed by MicroBanker Nepal Pvt. Ltd. Clients will be delivered SMS by the Identity MBNAlert. In this method, client’s server will request SMS push request to MicroBanker’s cloud server and MicroBanker’s SMS Gateway system will deliver to SMS to the particular client.</p>
             </div>
-            <div className='flex-1 relative w-full h-96'>
-                <Image src="/sms-banking3.jpg" alt='sms banking'  fill className='absolute object-contain'/>
+            <div className='md:flex-1 relative w-full h-60 md:h-96'>
+                <Image src="/sms-banking3.jpg" alt='sms banking' fill className='absolute object-contain'/>
             </div>
         </div>
 
-        <div className='flex gap-5 text-justify'>
-            <div className='flex-1 w-full h-36 relative'>
+        <div className='flex flex-col-reverse md:flex-row gap-5 text-justify'>
+            <div className='md:flex-1 w-full h-36 relative'>
                 <Image src="/modem.jpg" alt='modem' fill className='absolute object-contain' />
             </div>
             <div className='flex-[3]'>
