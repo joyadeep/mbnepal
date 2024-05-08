@@ -1,7 +1,13 @@
 import Service from "@/components/service";
+import { Metadata } from "next";
 import React from "react";
 
 type Props = {};
+
+export const metadata: Metadata = {
+  title:"Cheque Management",
+  description:"Cheque Management Module Cheque Management Module is software which is designed and developed to facilitate the organization for writing the cheque. It tracks each and every leaf of a cheque issued by the Bank in the name of the Company. This will help to maintain the records of cheques, signatories of account holders, cheque inventories […]"
+}
 
 const page = (props: Props) => {
   return (

@@ -13,6 +13,7 @@ import { BiSearch } from "react-icons/bi";
 import NavigationMenuBar from "./navigationMenu";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
+import MobileNavigation from "./mobileNavigation";
 
 
 type Props = {};
@@ -65,36 +66,7 @@ const Header = (props: Props) => {
         />
        </div>
 
-          <Sheet>
-            <SheetTrigger asChild>
-            <MdOutlineMenu size={32} className="text-secondary-text md:hidden"/>
-            </SheetTrigger>
-            <SheetContent className="pt-20 px-0">
-            <ul className="">
-                  <li className="pl-3 py-2 text-primary-text  hover:text-secondary-text font-medium uppercase ">
-                      home
-                  </li>
-                  <li className="pl-3 py-2 text-primary-text  hover:text-secondary-text font-medium uppercase ">
-                      our story
-                  </li>
-                  <li className="pl-3 py-2 text-primary-text  hover:text-secondary-text font-medium uppercase ">
-                      accordian
-                  </li>
-                  <li className="pl-3 py-2 text-primary-text  hover:text-secondary-text font-medium uppercase ">
-                      product
-                  </li>
-                  <li className="pl-3 py-2 text-primary-text  hover:text-secondary-text font-medium uppercase ">
-                      career
-                  </li>
-                  <li className="pl-3 py-2 text-primary-text  hover:text-secondary-text font-medium uppercase ">
-                      news
-                  </li>
-                  <li className="pl-3 py-2 text-primary-text  hover:text-secondary-text font-medium uppercase ">
-                      contact
-                  </li>
-            </ul>
-            </SheetContent>
-          </Sheet>
+          <MobileNavigation/>
 
         <div className="hidden md:flex items-center gap-6 text-sm uppercase">
           <Link

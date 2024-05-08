@@ -1,7 +1,13 @@
 import Service from '@/components/service'
+import { Metadata } from 'next'
 import React from 'react'
 
 type Props = {}
+
+export const metadata:Metadata ={
+  title: "Islamic Banking",
+  description:"Islamic Banking MBWIN also supports Islamic finance principal with editable profit margin. During the loan opening, it allows to enter profit margin which will be distributed equally among the installments for the period. Later these margins can be edited manually during the lifetime of the loan, installment by installment. In General Ledger, all income will […]"
+}
 
 const page = (props: Props) => {
   return (

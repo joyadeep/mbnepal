@@ -34,7 +34,7 @@ const NavigationMenuBar = (props: Props) => {
                         introduction
                       </NavigationMenuLink>
                     </div>
-                    <div className="py-2 px-5 cursor-pointer text-white font-semibold hover:bg-white hover:text-primary-text w-full" onClick={()=>{router.push("#")}}>
+                    <div className="py-2 px-5 cursor-pointer text-white font-semibold hover:bg-white hover:text-primary-text w-full" onClick={()=>{router.push("/our-team")}}>
                       <NavigationMenuLink className="">
                         our team
                       </NavigationMenuLink>
